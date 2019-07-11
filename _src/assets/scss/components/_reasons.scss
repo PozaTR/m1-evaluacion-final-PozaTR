@@ -1,4 +1,37 @@
-.reasons__title {
-  font-family: $font-maintitle;
-  font-size: $font-size2;
+.reasons {
+  text-align: center;
+  &__title {
+    font-family: $font-maintitle;
+    font-size: $font-size2;
+    margin-top: 30px;
+  }
+}
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 140px 200px;
+  grid-template-columns: 180px;
+}
+.element {
+  list-style: none;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item1 {
+  grid-row:1;
+}
+.item2 {
+  grid-row:2;
+}
+.item3 {
+  grid-row:3;
+}
+.reasons__bottom {
+  grid-row:4;
+}
+.item__title {
+
 }
