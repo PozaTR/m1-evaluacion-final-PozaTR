@@ -1,14 +1,13 @@
 .tips {
   text-align: left;
   &__lema {
-    font-family: $font-secondtitle;
     font-size: $font-size5;
     color:$color-light-blue;
     margin-top:30px;
     padding:8px 0px;
   }
   &__title {
-    font-family: $font-maintitle;
+    font-family: $font-titleFamily;
     font-size:$font-size2;
     margin-bottom:15px;
   }
