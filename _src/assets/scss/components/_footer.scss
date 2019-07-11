@@ -1,0 +1,47 @@
+.footer {
+  background-color:$color-darkmidtone;
+  padding-top:60px;
+  padding-bottom: 45px;
+  position:relative;
+
+  .page__wrapper {
+    display:grid;
+    grid-template-rows: auto auto auto;
+    grid-gap:30px;
+    text-align: center;
+  }
+
+  &__top {
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background-color: $color-light;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    top:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__element {
+    padding: 6px 0;
+  }
+
+  &__element__link {
+    text-transform: uppercase;
+    font-size: $font-size4;
+    color:$color-light;
+    text-decoration: none;
+  }
+
+  &__list--copyright {
+    color:$color-light;
+  }
+
+  .heart {
+    color:$color-bottom;
+  }
+}
+
