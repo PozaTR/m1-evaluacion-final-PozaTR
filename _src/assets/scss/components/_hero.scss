@@ -14,10 +14,27 @@
   font-family: $font-maintitle;
   font-size:$font-size1;
   margin-bottom: 10px;
+  }
   &__lema {
   font-size:$font-size4;
   text-align: center;
   }
-  }
 }
-
+.hero__container {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+}
+.hero__bottom {
+  width:47px;
+  height:47px;
+  border-radius:50%;
+  background-color: aqua;
+  position: absolute;
+  left:50%;
+  transform: translate(-50%);
+  top:25%;
+}
