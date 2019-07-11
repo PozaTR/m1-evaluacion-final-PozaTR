@@ -3,38 +3,44 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height:300px;
-  display:flex;
-  justify-content:center;
-  align-items: center;
+  min-height:100vh;
+  position:relative;
 }
 .hero {
   color:$color-light;
+
+  &__container {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:50%;
+
+  }
+
   &__title {
   font-family: $font-titleFamily;
   font-size:$font-size1;
   margin-bottom: 10px;
+  text-transform: uppercase;
   }
+
   &__lema {
   font-size:$font-size4;
   text-align: center;
   }
-}
-.hero__container {
-  text-align: center;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position:relative;
-}
-.hero__bottom {
-  width:47px;
-  height:47px;
-  border-radius:50%;
-  background-color: aqua;
-  position: absolute;
-  left:50%;
-  transform: translate(-50%);
-  top:25%;
+
+  &__bottom {
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background-color: $color-light;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:53px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
