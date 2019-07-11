@@ -11,9 +11,19 @@ $color-dark:#000;
 //Fuentes
 $font-titleFamily: 'Roboto Slab', 'Times New Roman', Times, serif;
 $font-bodyFamily:'Roboto', Arial, Helvetica, sans-serif;
+
+
+//Fuentes móvil
 $font-size1: 42px;
 $font-size2:24px;
 $font-size3: 18px;
 $font-size4:16px;
 $font-size5:14px;
 $font-bottom:20px;
+
+//Fuentes tablet
+$font-tablet1:80px;
+$font-tablet2:26px;
+$font-tablet3:$font-bottom;
+$font-tablet4:$font-size2;
+$font-tablet5:$font-size4;

@@ -23,11 +23,17 @@
   font-size:$font-size1;
   margin-bottom: 10px;
   text-transform: uppercase;
+  @media all and (min-width:768px) {
+    font-size:$font-tablet1;
+  }
   }
 
   &__lema {
   font-size:$font-size4;
   text-align: center;
+  @media all and (min-width:768px) {
+    font-size:$font-tablet4;
+  }
   }
 
   &__bottom {
@@ -42,5 +48,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    @media all and (min-width:768px) {
+      bottom:45px;
+    }
   }
 }
