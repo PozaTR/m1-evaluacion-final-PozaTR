@@ -1,10 +1,11 @@
 .tips {
   text-align: left;
+  padding-top:30px;
+  padding-bottom:45px;
   &__lema {
     font-size: $font-size5;
     color:$color-light-blue;
-    margin-top:30px;
-    padding:8px 0px;
+    padding:6px 0px;
   }
   &__title {
     font-family: $font-titleFamily;
@@ -14,11 +15,12 @@
   &__content {
     font-size:$font-size3;
     color:$color-grey;
+    margin-bottom:30px;
+    line-height: 1.67;
   }
   &__bottom {
     border: 3px solid $color-bottom;
     border-radius:22.5px;
-    margin-top:30px;
     width:75px;
     height:45px;
     display:flex;
@@ -29,5 +31,7 @@
 .tips__bottom-link {
   text-decoration: none;
   color:$color-bottom;
+  font-weight: 500;
+  font-size: $font-bottom;
 }
 
