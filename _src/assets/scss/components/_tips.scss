@@ -2,6 +2,12 @@
   text-align: left;
   padding-top:30px;
   padding-bottom:45px;
+
+  @media all and (min-width:768px) {
+      padding-top:30px;
+      padding-bottom:60px;
+    }
+
   &__lema {
     font-size: $font-size5;
     color:$color-light-blue;
@@ -11,12 +17,22 @@
     font-family: $font-titleFamily;
     font-size:$font-size2;
     margin-bottom:15px;
+
+    @media all and (min-width:768px) {
+      font-size:$font-tablet2;
+      margin-bottom:30px;
+    }
   }
   &__content {
     font-size:$font-size3;
     color:$color-grey;
     margin-bottom:30px;
     line-height: 1.67;
+
+    @media all and (min-width:768px) {
+      font-size:$font-tablet3;
+      line-height: 1.5;
+    }
   }
   &__bottom {
     border: 3px solid $color-bottom;
@@ -26,6 +42,10 @@
     display:flex;
     justify-content: center;
     align-items:center;
+
+    @media all and (min-width:768px) {
+      width:91px;
+    }
   }
 }
 .tips__bottom-link {
