@@ -1,0 +1,12 @@
+body, h1, h2, h3, p {
+  margin:0;
+  padding:0;
+}
+* {
+ box-sizing: border-box;
+}
+.page__wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 15px;
+}

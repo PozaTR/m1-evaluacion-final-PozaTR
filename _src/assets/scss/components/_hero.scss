@@ -1,0 +1,18 @@
+.hero-image {
+  background-image: url("../images/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:300px;
+}
+.hero {
+  color:$color-light;
+  &__title {
+  font-family: $font-maintitle;
+  font-size:$font-size1;
+  margin-bottom: 10px;
+  &__lema {
+  font-size:$font-size4;
+  }
+  }
+}
