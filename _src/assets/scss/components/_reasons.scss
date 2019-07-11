@@ -8,6 +8,10 @@
     font-family: $font-titleFamily;
     font-size: $font-size2;
     margin-bottom:45px;
+
+    @media all and (min-width:768px) {
+      font-size:$font-tablet2;
+    }
   }
 }
 .reasons__container {
@@ -20,6 +24,11 @@
   grid-template-rows: 1fr 1fr 1fr auto;
   grid-template-columns: 180px;
   grid-gap: 45px;
+
+  @media all and (min-width:768px) {
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
 }
 .element {
   list-style: none;
@@ -30,23 +39,52 @@
 }
 .item1 {
   grid-row:1;
+
+  @media all and (min-width:768px) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 }
 .item2 {
   grid-row:2;
+
+  @media all and (min-width:768px) {
+      grid-column: 2/3;
+      grid-row: 1/2;
+}
 }
 .item3 {
   grid-row:3;
+
+  @media all and (min-width:768px) {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
 }
 .item4 {
   grid-row:4;
+
+  @media all and (min-width:768px) {
+    grid-column: 2/3;
+    grid-row: 2/3;;
+}
 }
 .item__title {
   font-family: $font-titleFamily;
   font-size: $font-size3;
   padding:8px;
+
+  @media all and (min-width:768px) {
+    font-size:$font-tablet4;
+  }
 }
 .item__content {
   padding:8px;
+  font-size:$font-size3;
+
+  @media all and (min-width:768px) {
+    font-size:$font-tablet3;
+  }
 }
 .reasons__bottom {
   width:180px;
@@ -56,4 +94,8 @@
   color:$color-light;
   font-size:$font-bottom;
   border:none;
+
+  @media all and (min-width:768px) {
+    width:210px;
+  }
 }
