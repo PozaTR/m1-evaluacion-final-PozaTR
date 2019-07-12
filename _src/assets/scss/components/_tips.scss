@@ -7,12 +7,21 @@
       padding-top:30px;
       padding-bottom:60px;
     }
+  @media all and (min-width:1200px) {
+    padding-top:60px;
+    padding-bottom:60px;
+  }
 
   &__lema {
     font-size: $font-size5;
     color:$color-light-blue;
     padding:6px 0px;
+    @media all and (min-width:1200px) {
+      font-size:$font-size4;
+      padding-bottom: 10px;
+    }
   }
+
   &__title {
     font-family: $font-titleFamily;
     font-size:$font-size2;
@@ -22,18 +31,22 @@
       font-size:$font-tablet2;
       margin-bottom:30px;
     }
+    @media all and (min-width:1200px) {
+      font-size:$font-desktop2;
+    }
   }
+
   &__content {
     font-size:$font-size3;
     color:$color-grey;
     margin-bottom:30px;
     line-height: 1.67;
-
     @media all and (min-width:768px) {
       font-size:$font-tablet3;
       line-height: 1.5;
     }
   }
+
   &__bottom {
     border: 3px solid $color-bottom;
     border-radius:22.5px;
@@ -42,12 +55,15 @@
     display:flex;
     justify-content: center;
     align-items:center;
-
     @media all and (min-width:768px) {
       width:91px;
     }
+    @media all and (min-width:1200px) {
+      width:160px;
+    }
   }
 }
+
 .tips__bottom-link {
   text-decoration: none;
   color:$color-bottom;
