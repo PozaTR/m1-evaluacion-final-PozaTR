@@ -16,7 +16,10 @@ body {
   @media all and (min-width:768px) {
     padding: 0 39px;
   }
-  @media all and (min-width:1200px) {
-    padding: 0 85px;
+  .page__wrapper{
+    @media all and (min-width:1200px) {
+      margin:0;
+      padding:0 85px;
   }
+}
 }
