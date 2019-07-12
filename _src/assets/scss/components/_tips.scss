@@ -55,6 +55,7 @@
     display:flex;
     justify-content: center;
     align-items:center;
+    transition: border ease 0.6s;
     @media all and (min-width:768px) {
       width:91px;
     }
@@ -63,11 +64,20 @@
     }
   }
 }
-
+.tips__bottom:hover {
+  background-color:$color-bottom;
+  border:3px solid $color-midtone;
+}
 .tips__bottom-link {
   text-decoration: none;
   color:$color-bottom;
   font-weight: 500;
   font-size: $font-bottom;
-}
+  &:hover {
+    color:$color-light;
+  }
+  }
+
+
+
 
