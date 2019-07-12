@@ -1,13 +1,16 @@
 * {
   box-sizing: border-box;
  }
+
  body, h1, h2, h3, p, ul, li {
   margin:0;
   padding:0;
 }
+
 body {
   font-family: $font-bodyFamily;
 }
+
 .page__wrapper {
   margin: 0 auto;
   max-width: 1200px;
