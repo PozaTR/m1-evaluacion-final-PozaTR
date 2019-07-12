@@ -26,6 +26,9 @@
   @media all and (min-width:768px) {
     font-size:$font-tablet1;
   }
+  @media all and (min-width:1200px) {
+    font-size:$font-desktop1;
+  }
   }
 
   &__lema {
@@ -50,6 +53,9 @@
     align-items: center;
     @media all and (min-width:768px) {
       bottom:45px;
+    }
+    @media all and (min-width:1200px) {
+      bottom:13px;
     }
   }
 }
