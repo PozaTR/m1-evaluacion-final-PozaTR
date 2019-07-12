@@ -11,12 +11,12 @@
     padding-top:60px;
     padding-bottom:60px;
   }
-
   &.page__wrapper {
     @media all and (min-width:1200px) {
-      margin: 0 275px;
+      margin:0 275px;
     }
   }
+
   &__lema {
     font-size: $font-size5;
     color:$color-light-blue;
