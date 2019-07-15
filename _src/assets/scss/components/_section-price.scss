@@ -1,0 +1,12 @@
+.section-price {
+  background-color:$color-darkmidtone;
+  color:$color-light;
+  text-align: center;
+}
+.section-price__elements {
+  @media all and (min-width:768px) {
+    display:flex;
+    justify-content:space-between;
+    margin:0 40px;
+  }
+}
